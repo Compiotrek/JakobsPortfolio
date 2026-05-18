@@ -27,7 +27,10 @@ const pageContent = {
 
         <h3 style={{ borderBottom: "2px solid #808080", paddingBottom: "4px", margin: "20px 0 10px 0", fontSize: "16px" }}>Description</h3>
         <p style={{ margin: "0 0 16px 0" }}>
-          Das Projekt analysiert Gmail-Nachrichten und lokale Dokumente, extrahiert daraus strukturierte Workflow-Items wie Tasks, Risks, Questions, Decisions und Ideas, priorisiert diese und bündelt verwandte Aktionen zu reviewbaren Email Action Bundles. Der Fokus liegt auf Human-in-the-Loop-Automatisierung: Das System macht Vorschläge, sendet aber keine E-Mails und schreibt keine Kalender automatisch.
+          The project analyzes Gmail messages and local documents,
+          extracts structured workflow items such as tasks, risks, questions, decisions, and ideas, prioritizes them,
+          and groups related actions into reviewable Email Action Bundles. The focus is on human-in-the-loop automation: the system provides suggestions,
+          but does not send emails or create calendar events automatically.
         </p>
 
         <h3 style={{ borderBottom: "2px solid #808080", paddingBottom: "4px", margin: "20px 0 10px 0", fontSize: "16px" }}>Key Features</h3>
