@@ -13,11 +13,11 @@ import githubIcon from "../assets/GitHub.png";
 import linkedinIcon from "../assets/LinkedIN.png";
 
 export default function Desktop() {
-  const [terminalOpen, setTerminalOpen] = useState(true);
+  const [terminalOpen, setTerminalOpen] = useState(false);
   const [terminalMinimized, setTerminalMinimized] = useState(false);
   const [terminalZ, setTerminalZ] = useState(3);
 
-  const [explorerOpen, setExplorerOpen] = useState(false);
+  const [explorerOpen, setExplorerOpen] = useState(true);
   const [explorerMinimized, setExplorerMinimized] = useState(false);
   const [explorerZ, setExplorerZ] = useState(2);
 
